@@ -1,0 +1,427 @@
+/*--19-04-2021 Start--*/
+.the-journal.journallist-section { padding: 124px 0 68px 0; }
+#content .the-journal.journallist-section .headings h2 { font-size: 38px; line-height: 48px; color: #000; font-family: 'Recoleta DEMO'; font-weight: normal; text-transform: none;
+    margin-bottom: 34px; display: inline-block;
+}
+.the-journal.journallist-section .headings { margin-bottom: 110px; }
+.the-journal.journallist-section .masonry .button-group { float: right; margin-top: -177px; }
+.nextprev-btnrow { border-top: 1px solid #BCBCBC; padding: 40px 0; display: inline-block; width: 100%; vertical-align: top; }
+.nextprev-btnrow .btn-link { font-size: 15px; line-height: 27px; color: #24373E; text-transform: uppercase; font-weight: bold; position: relative;display: inline-block;text-decoration: none; }
+.nextprev-btnrow .btn-link:hover { color: #DE9F29; }
+.nextprev-btnrow .prev { padding-left: 30px; float: left; }
+.nextprev-btnrow .prev:before { position: absolute; left: 2px; top: 7px; content: ''; border-top: 2px solid #000000; border-left: 2px solid #000000;
+    width: 12px; height: 12px;
+    -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); transform: rotate(-45deg); -ms-transform: rotate(-45deg);
+}
+.nextprev-btnrow .next { padding-right: 30px; float: right; }
+.nextprev-btnrow .next:before { position: absolute; right: 2px; top: 7px; content: ''; border-top: 2px solid #000000; border-right: 2px solid #000000;
+    width: 12px; height: 12px;
+    -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg); -ms-transform: rotate(45deg);
+}
+
+.masonry-dropbtn { font-size: 18px; line-height: 26px; color: #000; background: #fff; padding: 16px 50px 16px 18px; font-weight: 500;
+    text-transform: capitalize; position: relative; cursor: pointer; border: 1px solid #B7B7B7; display: none;
+}
+.masonry-dropbtn:after { position: absolute; right: 30px; top: 24px; color: #676767; border-right: 2px solid #000000; border-bottom: 2px solid #000000;
+    width: 8px; height: 8px; content: ''; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg); -ms-transform: rotate(45deg);
+}
+.masonry-dropbtn.active:after { top: 28px; -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); transform: rotate(225deg); -ms-transform: rotate(225deg); }
+
+
+.masonry .button-group .button { margin: 0; border: none; box-shadow: none; outline: none; font-size: 16px; cursor: pointer; line-height: 26px;
+    padding: 0px 16px; color:#24373E; background: transparent; font-weight: 500;
+}
+.masonry .button-group .button:last-child { padding-right: 0; }
+.masonry .button-group .button.is-checked,
+.masonry .button-group .button.is-selected { text-decoration: underline; }
+.masonry .grid { margin: 0 -15px; }
+.masonry .element-item { width: 33.33%; padding: 0 15px;}
+.the-journal.journallist-section .cbp-item {padding: 0 15px;}
+
+.aboutus-section { padding: 124px 0 0 0; }
+#content .aboutus-section h2 { font-size: 38px; line-height: 48px; color: #000; font-family: 'Recoleta DEMO'; font-weight: normal; text-transform: none; margin-bottom: 34px;}
+.aboutus-section .headings { margin-bottom: 30px;}
+.aboutus-section .headings p { font-size: 24px; line-height: 42px; font-family: 'Gotham Book'; max-width: 1016px; }
+.aboutus-section .video-section { position: relative; }
+.black-linkbtn { background: #000; color: #FFFFFF; font-size: 14px; font-weight: 500; text-transform: uppercase; text-decoration: none;
+    width: 265px; height: 53px; text-align: center; outline: none; box-shadow: none; border: none; display: inline-block; padding: 10px; line-height: 33px;
+}
+.black-linkbtn:hover { background: #DE9F29; color: #fff; text-decoration: none; }
+
+.aboutaston-section { padding: 106px 0 100px 0; }
+.aboutaston-section .container { position: relative; }
+.aboutaston-section .vertical-title { position: absolute; right: 120px; top: -106px; padding-top: 375px; visibility: visible !important; animation-name: lineheight3; animation-duration: 2.5s; opacity: 1 !important;}
+@keyframes lineheight3 {
+  from {padding-top: 0px;}
+  to {padding-top: 375px;}
+}
+
+.aboutaston-section .vertical-title .sideline { position: absolute; left: 10px; height: 100%; width: 1px; background: #000; top: 0px;}
+.aboutaston-section .vertical-title span { color: #24373E; font-size: 18px; line-height: 20px; text-transform: uppercase; font-weight: 500; display: block;
+    background: #fff; padding-bottom: 20px; writing-mode: vertical-lr;
+    -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); transform: rotate(-180deg); -ms-transform: rotate(-180deg);
+}
+.aboutaston-section .towcol-row { position: relative;}
+.aboutaston-section .leftcol { width: 78.5%; }
+.aboutaston-section .aboutaston-col { background: #F5F5F5; padding: 100px 42.4% 90px 0px; min-height: 660px; }
+.aboutaston-section .aboutaston-col .aboutaston-row { padding-left: 100px; }
+.aboutaston-section .aboutaston-col .aboutaston-row h3 { font-size: 30px; line-height: 56px; color: #24373E; margin-bottom: 46px; text-transform: uppercase;
+    font-family: 'Gotham Book';
+}
+.aboutaston-section .aboutaston-col .aboutaston-row p { font-size: 16px; line-height: 26px; font-family: 'Gotham Book'; margin-bottom: 30px; }
+.aboutaston-section .rightimage { position: absolute; right: 20px; bottom: -25px; }
+.aboutaston-section .rightimage .image-col { padding-right: 110px; }
+
+.aboutproperty-section { padding: 70px 0 70px 0; }
+.aboutproperty-section .container { position: relative; }
+.aboutproperty-section .vertical-title { position: absolute; left: 120px; top: -170px; padding-top: 520px;  visibility: visible !important; animation-name: lineheight4; animation-duration: 2.5s; opacity: 1 !important;}
+@keyframes lineheight4 {
+  from {padding-top: 0px;}
+  to {padding-top: 520px;}
+}
+
+
+.aboutproperty-section .vertical-title .sideline { position: absolute; left: 10px; height: 100%; width: 1px; background: #000; top: 0px;}
+.aboutproperty-section .vertical-title span { color: #24373E; font-size: 18px; line-height: 20px; text-transform: uppercase; font-weight: 500; display: block;
+    background: #fff; padding-bottom: 20px; writing-mode: vertical-lr;
+    -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); transform: rotate(-180deg); -ms-transform: rotate(-180deg);
+}
+.aboutproperty-section .towcol-row { position: relative; }
+.aboutproperty-section .leftcol { width: 72%; margin-left: 28%; padding-top: 100px; }
+.aboutproperty-section .leftcol h3 { font-size: 30px; line-height: 46px; color: #24373E; margin-bottom: 26px; text-transform: uppercase; font-family: 'Gotham Book';}
+.aboutproperty-section .leftcol p { font-size: 16px; line-height: 26px; font-family: 'Gotham Book'; margin-bottom: 26px; }
+.aboutproperty-section .leftcol .right-content { padding-left: 40%; padding-right: 58px; }
+.aboutproperty-section .leftcol .mobile-image { display: none;}
+.aboutproperty-section .aboutproperty-col { background: #F5F5F5; padding: 48px 420px 90px 40%; min-height: 460px; }
+.aboutproperty-section .aboutproperty-col .aboutaston-row { padding-left: 100px; }
+.aboutproperty-section .rightimage { position: absolute; left: 85px; top: 0; }
+.aboutproperty-section .rightimage .image-col { padding-right: 55px; padding-left: 55px; }
+.aboutproperty-section .aboutproperty-content { padding-right: 66px; }
+
+.meettheteam-section { padding: 64px 0;}
+#content .meettheteam-section .headings h2 { font-size: 38px; line-height: 48px; color: #000; font-family: 'Recoleta DEMO'; font-weight: normal;
+    text-transform: none; margin-bottom: 34px; display: inline-block;
+}
+.meettheteam-section .button-group { display: inline-block; margin-left: 90px; float: none;}
+.meettheteam-section .button-group .button { margin: 0; border: none; box-shadow: none; outline: none; font-size: 16px; cursor: pointer; line-height: 26px; padding: 0px 16px; color:#24373E !important; background: transparent !important; font-weight: 500; }
+.meettheteam-section .button-group .button.cbp-filter-item-active {text-decoration: underline;}
+.meettheteam-section .button-group .button:last-child { padding-right: 0; }
+.meettheteam-section .button-group .button.is-checked,
+.meettheteam-section .button-group .button.is-selected { text-decoration: underline; }
+.meettheteam-section .masonry { padding-top: 40px;}
+.meettheteam-section .team-block { position: relative; padding-left: 162px; min-height: 132px; margin-bottom: 60px; }
+.meettheteam-section .team-block:hover .img img { filter: grayscale(0); -webkit-filter: grayscale(0); }
+.meettheteam-section .team-block .img { position: absolute; left: 0; top: 0; width: 132px; height: 132px; }
+.meettheteam-section .team-block .img img { filter: grayscale(1); -webkit-filter: grayscale(1); transition: all 0.5s ease; }
+.meettheteam-section .team-block .content { color: #24373E; padding-top: 3px; line-height: 26px; }
+.meettheteam-section .team-block .content p { font-size: 16px; line-height: 26px; font-family: 'Gotham Book'; color: #24373E; }
+.meettheteam-section .team-block .content p a { color: #24373E; text-decoration: underline; }
+.meettheteam-section .team-block .content .name { font-weight: 500; color: #24373E; font-size: 16px; }
+.meettheteam-section .team-block .content .name a { color: #24373E; }
+.meettheteam-section .team-block .content .name a:hover { text-decoration: underline; }
+.meettheteam-section .team-block .content span { font-family: 'Gotham Book'; display: block; margin-bottom: 18px; font-size: 14px;}
+
+.small-container { max-width: 870px; width: 100%; margin: 0 auto; }
+.thejournal-detailsection { padding: 124px 0 137px 0; }
+.thejournal-detailsection .headings { margin-bottom: 40px; }
+#content .thejournal-detailsection .headings h2 { font-size: 38px; line-height: 48px; color: #000; font-family: 'Recoleta DEMO'; font-weight: normal;
+    margin-bottom: 29px; text-transform: capitalize;
+}
+.thejournal-detailsection .headings p { font-size: 24px; line-height: 42px; color: #000000; text-transform: capitalize; font-family: 'Gotham Book'; }
+.thejournal-detailsection .content-cols img { margin-bottom: 50px;}
+.thejournal-detailsection p { font-family: 'Gotham Book'; line-height: 26px; font-size: 16px; margin-bottom: 26px; }
+.thejournal-detailsection .bottom-linkrow { border-top: 1px solid #CECECE; padding: 28px 0; margin: 38px 0 0 0; display: inline-block; width: 100%; vertical-align: top; }
+.thejournal-detailsection .bottom-linkrow .print-col { float: right;}
+.thejournal-detailsection .bottom-linkrow .print-col ul { margin: 0; padding: 0; }
+.thejournal-detailsection .bottom-linkrow .print-col ul li { list-style: none; margin: 0 60px 0 0; padding: 0; display: inline-block; position: relative; }
+.thejournal-detailsection .bottom-linkrow .print-col ul li:last-child { margin-right: 0;}
+.thejournal-detailsection .bottom-linkrow a { color: #000; display: inline-block; font-size: 12px; line-height: 24px; text-transform: uppercase; font-weight: 500; }
+.thejournal-detailsection .bottom-linkrow a:hover { color: #DE9F29; }
+.thejournal-detailsection .bottom-linkrow a .fa { font-size: 22px; line-height: 24px; vertical-align: top; margin-right: 10px; }
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle { position: absolute; left: 0; top: 100%; width: 300px; background: #000; display: none;
+    border: 1px solid #ebeef5; padding: 26px 20px 4px; margin-top: 12px;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1); -moz-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1); box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    -ms-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+}
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle ul { padding: 0; margin: 0; }
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle ul li { list-style: none; padding: 0 6px; margin: 0; position: relative; display: inline-block; }
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle ul li a { color: #fff; }
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle ul li a:hover { color: #DE9F29; }
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle ul li:after { content: ""; background-color: #c29b40; width: 3px; height: 3px;
+    border-radius: 4px; position: absolute; right: -4px; top: 12px;
+}
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle ul li:last-child:after { display: none; }
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle .share-close { position: absolute; right: 12px; top: 6px;}
+.thejournal-detailsection .bottom-linkrow .print-col .share-toggle .share-close img { margin-bottom: 0px; }
+
+.property-worthsection { text-align: center; background: #F5F5F5; padding: 71px 0 95px 0; }
+#content .property-worthsection h2 { font-size: 72px; line-height: 86px; color: #000; font-family: 'Recoleta DEMO'; font-weight: normal; text-transform: none;
+    margin-bottom: 42px;
+}
+.property-worthsection .property-worthcol { max-width: 700px; margin: 0 auto; }
+.property-worthsection .property-worthcol p { font-size: 19px; line-height: 30px; color: #000000; font-weight: 500; margin-bottom: 30px; }
+.property-worthsection .property-worthcol .booknow-btn { background: #fff; color: #000000; font-size: 14px; font-weight: 500; text-transform: uppercase; text-decoration: none;
+    width: 246px; height: 53px; text-align: center; outline: none; box-shadow: none; display: inline-block; padding: 10px; line-height: 33px;
+    margin-top: 30px; border: 1px solid #707070;
+}
+.property-worthsection .property-worthcol .booknow-btn:hover { background:#DE9F29; color: #fff; border-color:#DE9F29; }
+
+.thankyou-banner {  width: 100%; height: 100%; background-repeat: no-repeat;
+    background-size: cover; background-position: 50% 50%; padding: 186px 0 20px 0; min-height: 550px;
+}
+.thankyou-banner .banner-text h1 { margin: 0 0 24px 0; color: #fff; }
+.thankyou-banner .banner-text p { font-size: 19px; line-height: 30px; font-family: 'Gotham Book'; color: #fff; margin-bottom: 24px; max-width: 687px; }
+.back-btn { background: #fff; color: #000; font-size: 14px; line-height: 23px; font-weight: 500; text-transform: uppercase;
+    width: 100%; max-width: 266px; display: inline-block; text-align: center; outline: none; box-shadow: none; border: none; padding: 15px 10px;
+}
+.back-btn:hover,
+.back-btn:focus { background: #000; text-decoration: none; color: #fff; }
+
+.error-banner {  width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 186px 0 20px 0; min-height: 550px; position: relative;}
+.error-banner .mobile-bg-image {position: absolute;left: 0;right: 0;top: 0;bottom: 0;width: 100%;height: 100%;z-index: -1; display: none;}
+.error-banner .mobile-bg-image img {width: 100%;height: 100%;object-fit: cover;}
+.error-banner .banner-text { text-align: center; position: relative; width: 100%; align-items: center; display: flex; }
+.error-banner .banner-text h1 { font-family: 'Gotham'; margin: 0 0 19px 0; color: #fff; font-weight: 900; letter-spacing: -0.68px; font-size: 68px; line-height: 76px; }
+.error-banner .banner-text h2 { font-family: 'Gotham'; margin: 0 0 21px 0; color: #fff; font-weight: 900; letter-spacing: -0.28px; font-size: 28px; line-height: 31px; }
+.error-banner .banner-text p { font-size: 15px; line-height: 17px; font-weight: 500; color: #fff; margin-bottom: 40px; }
+.error-banner .container { display: flex; height: 100%; }
+.error-banner .errorbanner-content { width: 100%; }
+
+.savedproperties-section.my-profile .headings h3 { margin-bottom: 40px;}
+.myprofile-form .form-group { margin-bottom: 40px; }
+.myprofile-form .form-group label { font-size: 14px; line-height: 26px; font-family: 'Gotham Book'; font-weight: normal; margin-bottom: 12px; }
+.myprofile-form .form-group .form-control { background-color: #fff; border: 1px solid #B7B7B7; border-radius: 0; outline: none; box-shadow: none;
+    padding: 10px 20px; font-size: 14px; color: #000; font-family: 'Gotham Book'; height: 60px;
+}
+.myprofile-form .form-group .submit-btn { background: #000; color: #FFFFFF; font-size: 14px; font-weight: 500; text-transform: uppercase;
+    width: 207px; height: 53px; text-align: center; outline: none; box-shadow: none; border: none;
+}
+.myprofile-form .form-group .submit-btn:hover { background: #DE9F29; }
+.linklist-row ul li.active a { text-decoration: underline; }
+
+.savedproperties-section.property-alerts .headings h3 { margin-bottom: 40px; }
+.savedproperties-section .savelist-col .savelist-row { background-color: #fff; margin-bottom: 15px; padding: 15px; }
+.savedproperties-section .savelist-col .savelist-row h4 { font-size: 22px; line-height: 30px; color: #24373E; text-transform: uppercase;
+    font-family: 'Gotham Book'; font-weight: normal; margin: 0 0 20px 0;
+}
+.savedproperties-section .savelist-col .savelist-row h4 a { color: #24373E; }
+.savedproperties-section .savelist-col .savelist-links { margin: 0; padding: 0; }
+.savedproperties-section .savelist-col .savelist-links li { margin: 0; padding: 0 20px 0 0; list-style: none; display: inline-block;
+    font-size: 16px; line-height: 26px; font-family: 'Gotham Book';
+}
+.savedproperties-section .savelist-col .savelist-links li a { color: #000; }
+.savedproperties-section .savelist-col .savelist-links li a:hover { color: #DE9F29; text-decoration: none; }
+.savedproperties-section .savelist-col .savelist-links li .fa { margin-right: 7px;}
+
+.content-headings { padding: 124px 0 0 0; }
+#content .content-headings .headings h2 { font-size: 38px; line-height: 48px; color: #000; font-family: 'Recoleta DEMO'; font-weight: normal;
+    margin-bottom: 34px; text-transform: capitalize;
+}
+.content-headings .headings { margin-bottom: 55px;}
+.content-headings .headings h3 {margin: 80px 0 30px 0;text-transform: uppercase;font-size: 30px;line-height: 56px;}
+.content-headings .headings .img {margin: 40px 0;}
+.content-headings .headings p { font-size: 24px; line-height: 42px; font-family: 'Gotham Book'; max-width: 1016px; }
+.content-section { padding: 45px 0 140px 0; position: relative; }
+.content-section p { font-size: 16px; line-height: 26px; font-family: 'Gotham Book'; margin-bottom: 0; }
+.content-section p + p { margin-top: 26px;}
+.content-section p a { color: #000; text-decoration: underline; }
+.content-section .left-content p { font-size: 16px; line-height: 26px; font-family: 'Gotham Book'; color: #000000; max-width: 651px; }
+.content-section .towcolumn-row { position: relative; min-height: 700px; }
+.content-section .towcolumn-row .leftcol { width: 75%;}
+.content-section .towcolumn-row .leftcol .left-content { padding: 0px 30% 70px 0px;}
+.content-section .towcolumn-row .leftcol .normal-content { max-width: 651px; margin-bottom: 79px; }
+.content-section .towcolumn-row .leftcol .content-fullcolumn { background: #F5F5F5; padding: 70px 43.6% 70px 0px; }
+.content-section .towcolumn-row .leftcol .content-fullcolumn .content-column { padding: 0px 0 0px 100px; }
+.content-section .towcolumn-row .rightimage { position: absolute; right: 0px; top: 0px; }
+.content-section .towcolumn-row .rightimage .image-col { position: relative; }
+.content-section .towcolumn-row .rightimage .image-col img { width: 100%; }
+.policy-text .text-block {max-width: 1094px;margin: auto;padding: 0 0 90px 0;}
+.policy-text .text-block h3 {font-size: 30px;line-height: 40px;text-transform: uppercase;margin: 60px 0 30px 0;}
+.policy-text .text-block p {line-height: 26px;font-size: 16px;font-family: 'Gotham Book';margin: 0 0 20px 0;}
+
+
+.content-section .towcolumn-row.whitebg-row { min-height: 348px; }
+.content-section .towcolumn-row.whitebg-row .leftcol .content-fullcolumn { background: #fff; padding: 70px 43.6% 70px 0px; }
+.content-section .towcolumn-row.whitebg-row .leftcol .content-fullcolumn .content-column { padding: 0px 0 0px 100px; }
+.content-section .towcolumn-row.whitebg-row .rightimage .image-column { padding-right: 110px; }
+.content-section .towcolumn-row.whitebg-row .rightimage { top: -220px; }
+
+.content-section .container { position: relative; }
+.content-section .vertical-title { position: absolute; right: 45%; top: 100%; padding-top: 375px; visibility: visible !important; animation-name: lineheight3; animation-duration: 2.5s; opacity: 1 !important; animation-delay: 1s;}
+.content-section .vertical-title .sideline { position: absolute; left: 10px; height: 100%; width: 1px; background: #000; top: 0px;}
+.content-section .vertical-title span { color: #24373E; font-size: 18px; line-height: 20px; text-transform: uppercase; font-weight: 500; display: block;
+    background: #fff; padding-bottom: 20px; writing-mode: vertical-lr;
+    -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); transform: rotate(-180deg); -ms-transform: rotate(-180deg);
+}
+/*--19-04-2021 End--*/
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .the-journal.journallist-section .masonry .button-group { display: block !important; margin-top: -177px !important; height: auto !important;}
+}
+@media (max-width: 1759px) {
+    .content-section .vertical-title { right: 40%; }
+}
+@media (max-width: 1659px) {
+    .content-section .vertical-title { right: 30%; }
+}
+@media (max-width: 1459px) {
+    .content-section .vertical-title { right: 20%; }
+}
+@media (max-width: 1199px) {
+    .aboutaston-section .aboutaston-col .aboutaston-row { padding-left: 50px;}
+    .aboutaston-section .rightimage .image-col { padding-right: 60px;}
+    .aboutproperty-section .vertical-title { left: 70px; }
+    .aboutproperty-section .leftcol .right-content { padding-left: 45%; padding-right: 30px; }
+    .aboutproperty-section .rightimage .image-col { padding-right: 10px; padding-left: 10px; }
+    .aboutproperty-section .aboutproperty-col { padding: 48px 420px 50px 45%; }
+    .aboutproperty-section .aboutproperty-content { padding-right: 30px;}
+    .aboutaston-section .vertical-title { right: 70px;}
+    .meettheteam-section .team-block { padding-left: 115px; min-height: 100px;}
+    .meettheteam-section .team-block .img { width: 100px; height: 100px; }
+    .meettheteam-section .team-block .content { line-height: 22px; padding-top: 0; }
+    .meettheteam-section .team-block .content .name { font-size: 14px; }
+    .meettheteam-section .team-block .content span { margin-bottom: 8px; font-size: 14px; }
+    .meettheteam-section .team-block .content p { font-size: 14px; line-height: 22px;}
+    .thejournal-detailsection .bottom-linkrow .print-col .share-toggle { width: 212px; }
+    .content-section .towcolumn-row .leftcol .content-fullcolumn { padding: 70px 38% 70px 0px;}
+    .content-section .towcolumn-row .leftcol .content-fullcolumn .content-column { padding: 0px 0 0px 60px;}
+    .content-section .towcolumn-row.whitebg-row .leftcol .content-fullcolumn .content-column { padding: 0px 0 0px 60px;}
+    .content-section .towcolumn-row .leftcol .normal-content { padding-right: 120px;}
+    .content-section .towcolumn-row.whitebg-row .leftcol .content-fullcolumn { padding: 70px 38% 70px 0px;}
+    
+}
+
+@media (max-width: 991px) {
+    .aboutaston-section .vertical-title { right: 50px;}
+    .aboutaston-section .aboutaston-col { padding: 50px 42.4% 90px 0px; }
+    .aboutaston-section .aboutaston-col .aboutaston-row { padding-left: 20px; }
+    .aboutaston-section .aboutaston-col .aboutaston-row h3 { font-size: 24px; line-height: 50px; margin-bottom: 36px; }
+    .aboutaston-section .rightimage .image-col { padding-right: 40px;}
+    .aboutproperty-section .vertical-title { left: 40px; }
+    .aboutproperty-section .leftcol { width: 78%; margin-left: 22%; padding-top: 30px; }
+    .aboutproperty-section .rightimage { left: 30px; }
+    .aboutproperty-section .leftcol .right-content { padding-left: 42%; padding-right: 30px;}
+    .aboutproperty-section .aboutproperty-col { padding: 48px 420px 50px 42%; }
+    .aboutproperty-section .leftcol h3 { font-size: 24px; line-height: 36px; }
+    .meettheteam-section .masonry .element-item { width: 50%; }
+    .meettheteam-section .button-group { margin-left: 50px; }
+    .masonry .grid { margin: 0 -10px; }
+    .masonry .element-item { padding: 0 10px; }
+    .the-journal.journallist-section .content { padding: 0 15px; }
+    .the-journal.journallist-section .content p { line-height: 18px; font-size: 14px; }
+    .the-journal .content .read-more,
+    .the-journal.journallist-section .content a { margin-top: 5px; line-height: 18px; font-size: 14px;}
+    .content-section .towcolumn-row .leftcol .content-fullcolumn .content-column { padding: 0px 0 0px 20px;}
+    .content-section .towcolumn-row.whitebg-row .leftcol .content-fullcolumn .content-column { padding: 0px 0 0px 20px;}
+}
+
+@media (max-width: 767px) {
+    .aboutus-section { padding: 15px 0 0 0;}
+    #content .aboutus-section h2 { margin-bottom: 28px; }
+    .aboutus-section .headings p { font-size: 20px; line-height: 28px; }
+    .aboutaston-section .vertical-title,
+    .aboutproperty-section .vertical-title { display: none;}
+    .aboutaston-section .leftcol { width: 100%;}
+    .aboutaston-section .aboutaston-col { margin-left: -18px !important; margin-right: -18px !important; padding: 18px !important; min-height: 1px; position: relative; }
+    .aboutaston-section .aboutaston-col .aboutaston-row { padding-left: 0; padding-top: 65px; }
+    .aboutaston-section .aboutaston-col .aboutaston-row h3 { font-size: 26px; line-height: 56px; margin-bottom: 30px;}
+    .aboutaston-section .rightimage { position: relative; right: auto; bottom: auto; max-width: 100%; }
+    .aboutaston-section .rightimage:after { position: absolute; left: -3px; right: -3px; top: 0; height: 80%; content: ''; background-color:#F5F5F5; }
+    .aboutaston-section .rightimage .image-col { padding-right: 0; z-index: 1; position: relative; }
+    .aboutaston-section .rightimage .image-col img { width: 100%; }
+    .aboutaston-section .aboutaston-col .black-linkbtn { display: none; }
+    .aboutaston-section { padding: 0px 0 0px 0; margin-top: -50px; }
+    .aboutus-section .video-section { z-index: 1;}
+    .aboutproperty-section { padding: 50px 0 12px 0; }
+    .aboutproperty-section .leftcol { width: 100%; margin-left: 0; padding-top: 0;}
+    .aboutproperty-section .leftcol h3 { font-size: 30px; line-height: 46px;}
+    .aboutproperty-section .leftcol .right-content { padding-left: 0; padding-right: 0;}
+    .aboutproperty-section .rightimage { display: none; }
+    .aboutproperty-section .leftcol .mobile-image { display: block;}
+    .aboutproperty-section .leftcol .mobile-image img { width: 100%; }
+    .aboutproperty-section .aboutproperty-content { padding-right: 0; }
+    .aboutproperty-section .aboutproperty-col { padding: 28px 0 !important; margin-right: 0px !important; background: transparent; min-height: 1px; }
+    .meettheteam-section { padding: 10px 0;}
+    #content .meettheteam-section .headings h2 {display: block; margin-bottom: 24px; }
+    .meettheteam-section .button-group { margin-left: 0; width: 100%; vertical-align: top; text-align: left; margin: 0;}
+    .meettheteam-section .button-group .button { font-size: 18px; line-height: 28px; padding: 0px 7px; }
+    .meettheteam-section .button-group .button:first-child { padding-left: 0; }
+    .meettheteam-section .masonry { padding-top: 37px; }
+    .meettheteam-section .team-block { padding-left: 0; min-height: 1px; margin-bottom: 36px; }
+    .meettheteam-section .team-block .img { width: 100%; height: auto; position: relative; }
+    .meettheteam-section .team-block .img img { width: 100%; }
+    .meettheteam-section .team-block .content { line-height: 26px; padding-top: 23px;}
+    .meettheteam-section .team-block .content .name,
+    .meettheteam-section .team-block .content span { font-size: 16px; }
+    .meettheteam-section .team-block .content p { font-size: 16px; line-height: 26px;}
+    .meettheteam-section .masonry .grid { padding-bottom: 0; }
+    .masonry-dropbtn { display: block; }
+    .the-journal.journallist-section { padding: 15px 0 0px 0; margin-bottom: 0; }
+    .the-journal.journallist-section .headings { margin-bottom: 0; }
+    .the-journal.journallist-section .masonry .button-group { display: none; float: none; margin: 0;}
+    .the-journal.journallist-section .masonry .button-group .button { width: 100%; display: block; color: #000; line-height: 26px; font-size: 18px; padding: 16px 18px;
+        border: 1px solid #B7B7B7; border-top: none; text-align: left;
+    }
+    .the-journal.journallist-section .masonry .grid { margin-top: 31px; }
+    .the-journal.journallist-section .masonry .element-item { width: 50%;}
+    .nextprev-btnrow { border-top: none;}
+    .nextprev-btnrow .prev { padding-left: 20px; width: 62px; overflow: hidden; }
+    .nextprev-btnrow .next { padding-right: 20px; }
+    .thejournal-detailsection { padding: 15px 0 34px 0;}
+    .thejournal-detailsection .headings p { font-size: 20px; line-height: 28px; }
+    .thejournal-detailsection .bottom-linkrow { border-top: none; margin: 0; }
+    .thejournal-detailsection .bottom-linkrow .print-col { float: none; width: 100%; margin-top: 35px;}
+    .thejournal-detailsection .bottom-linkrow .print-col ul li { margin: 0 32px 0 0; }
+    .thejournal-detailsection .bottom-linkrow .print-col .share-toggle { width: 285px;}
+    .property-worthsection { padding: 55px 0; }
+    #content .property-worthsection h2 { font-size: 33px; line-height: 58px; margin-bottom: 25px; }
+    .property-worthsection .property-worthcol p { margin-bottom: 25px; }
+    .property-worthsection .property-worthcol .booknow-btn { margin-top: 0px; width: 100%; }
+    .thankyou-banner { padding: 80px 0 20px 0; }
+    .thankyou-banner .banner-text h1 { font-size: 38px; line-height: 48px; margin-bottom: 34px; }
+    .thankyou-banner .banner-text p { font-size: 20px; line-height: 28px; max-width: 100%; margin-bottom: 34px; }
+    .back-btn { font-size: 18px; max-width: 100%;}
+    .error-banner { padding: 55px 0 36px 0; min-height: 450px; }
+    .error-banner .banner-text { text-align: left; align-items: flex-end; }
+    .error-banner .banner-text h1 { letter-spacing: -0.37px; font-size: 37px; line-height: 55px; margin-bottom: 11px; }
+    .error-banner .banner-text h2 { margin-bottom: 55px; font-weight: bold;}
+    .error-banner .banner-text p { display: none;}
+    .myprofile-form .form-group { margin-bottom: 20px;}
+    .myprofile-form .form-group label { margin-bottom: 5px;}
+    .savedproperties-section.my-profile .headings h3 { margin-bottom: 20px;}
+    .savedproperties-section .savelist-col .savelist-row { background-color: #F5F5F5; }
+    .content-headings { padding: 15px 0 0 0;}
+    #content .content-headings .headings h2 { margin-bottom: 28px;}
+    .content-headings .headings { margin-bottom: 0;}
+    .content-headings .headings p { font-size: 20px; line-height: 28px; }
+    .content-section { padding: 45px 0 55px 0; }
+    .content-section .vertical-title { display: none;}
+    .content-section .towcolumn-row .leftcol { width: 100%;}
+    .content-section .towcolumn-row .rightimage { position: relative; margin-top: 18px;}
+    .content-section .towcolumn-row .leftcol .normal-content { max-width: 100%; padding-right: 0; margin-bottom: 40px; }
+    .content-section .towcolumn-row .leftcol .content-fullcolumn { padding: 40px 18px !important; margin: 0 -18px !important; }
+    .content-section .towcolumn-row .leftcol .content-fullcolumn .content-column { padding: 0;}
+    .content-section .towcolumn-row .rightimage .image-col { margin-right: 0 !important;}
+    .content-section .towcolumn-row.whitebg-row .rightimage { top: auto;}
+    .content-section .towcolumn-row.whitebg-row .leftcol .content-fullcolumn .content-column { padding: 0;}
+    .content-section .towcolumn-row.whitebg-row .rightimage .image-column { padding-right: 0;}
+    .content-section .towcolumn-row.whitebg-row .rightimage .image-column img { width: 100%;}
+    .error-banner .mobile-bg-image {display: block;}
+    .error-banner {background-image: none !important;}
+    .content-headings .headings h3 {margin: 40px 0 20px 0; font-size: 25px; line-height: 40px;}
+    .policy-text .text-block h3 {font-size: 25px; line-height: 35px; margin: 40px 0 20px 0;}
+    .content-headings .headings .img {margin: 20px 0;}
+}
+
+@media (max-width: 479px) {
+    .meettheteam-section .masonry .element-item { width: 100%;}
+    .the-journal.journallist-section .masonry .element-item { width: 100%;}
+    .the-journal.journallist-section .img img { width: 100%; }
+    .savedproperties-section .savelist-col .savelist-links li { width: 100%; padding: 0; margin-bottom: 10px;}
+}

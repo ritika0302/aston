@@ -1,0 +1,49 @@
+a,
+button,
+.search-modal,
+.btn,
+.navbar-nav .nav-link:before,
+.navbar-nav .nav-link em,
+.navbar,
+.navbar-brand img{
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+.navbar-nav .show .nav-link em{
+	transform: rotate(180deg);
+}
+
+.a-image-2{
+	box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+.heading:after{
+	border-radius: 4px;
+}
+
+.testi-block{
+	box-shadow: 0 0 20px rgba(137,0137,137,0.3);
+}
+.bootstrap-select> .dropdown-menu{
+	box-shadow: 0 0 6px rgba(0,0,0,0.19);
+}
+.testi-photo{
+	box-shadow: 0 0 6px rgba(0,0,0,0.19);
+	border-radius: 100%;
+}
+.testim-slider .slick-arrow,
+.accord-icon{
+	border-radius: 100%;
+}
+.special-section .btn{
+	border-radius: 33px;
+}
+.address-foot p em,
+.bootstrap-select >.dropdown-toggle:before,
+.accord-icon,
+.check-list li:before,
+.angle-list li:before{
+	transform: translateY(-50%);
+}

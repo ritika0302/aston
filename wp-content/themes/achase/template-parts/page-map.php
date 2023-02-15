@@ -1,0 +1,67 @@
+<?php
+/*
+  ** Template Name:Map
+*/
+?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marker Animations</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      // The following example creates a marker in Stockholm, Sweden using a DROP
+      // animation. Clicking on the marker will toggle the animation between a BOUNCE
+      // animation and no animation.
+      let marker;
+
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 13,
+          center: { lat: 59.325, lng: 18.07 },
+        });
+        marker = new google.maps.Marker({
+          map,
+          draggable: true,
+          animation: google.maps.Animation.DROP,
+          position: { lat: 59.327, lng: 18.067 },
+        });
+        marker.addListener("click", toggleBounce);
+      }
+
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcCey8nCUOOnF3V4WmN8lm4dMAvVOS7ec&callback=initMap&libraries=places"
+      async
+    ></script>
+  </body>
+</html>
